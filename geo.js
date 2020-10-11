@@ -1,7 +1,8 @@
 
 var apiKey ="863721f8386e48f9a1aaa441ca2761d8"
 //Load existing TodDos and display them
-var xmlhttps =  new XMLHttpRequest();
+function getGeo(courseName, cityName, stateName){
+  var xmlhttps =  new XMLHttpRequest();
 	xmlhttps.onreadystatechange = function() {
 		// wait for readyState = 4 && 200 response
 		 if (this.readyState == 4 && this.status == 200) {
@@ -23,3 +24,4 @@ var xmlhttps =  new XMLHttpRequest();
 xmlhttps.open("GET","https://api.opencagedata.com/geocode/v1/json?q=Annapolis&key=" + apiKey,true);
 //xmlhttps.setRequestHeader("x-api-key", apiKey);
 xmlhttps.send();
+};

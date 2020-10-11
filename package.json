@@ -1,0 +1,23 @@
+{
+  "name": "pgaproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "airtable.js",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmacdonald/PGAProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chmacdonald/PGAProject/issues"
+  },
+  "homepage": "https://github.com/chmacdonald/PGAProject#readme"
+}
